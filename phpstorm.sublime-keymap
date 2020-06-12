@@ -1,0 +1,8 @@
+[
+  {"keys": ["ctrl+alt+l"], "command": "reindent","args": {"single_line": false}},
+  { "keys": ["alt+j"], "command": "find_under_expand" },
+  { "keys": ["ctrl+y"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["ctrl+d"], "command": "duplicate_line" },
+  // ctrl + shift + p 安装  expandRegion 
+  { "keys": ["ctrl+w"], "command": "expand_region" },
+]
